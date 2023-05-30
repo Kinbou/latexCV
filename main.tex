@@ -1,10 +1,4 @@
-% a mashup of hipstercv, friggeri and twenty cv
-% https://www.latextemplates.com/template/twenty-seconds-resumecv
-% https://www.latextemplates.com/template/friggeri-resume-cv
-
-\documentclass[lighthipster]{simplehipstercv}
-% available options are: darkhipster, lighthipster, pastel, allblack, grey, verylight, withoutsidebar
-% withoutsidebar
+\documentclass[lighthipster]{main-classes}
 \usepackage[utf8]{inputenc}
 \usepackage[default]{raleway}
 \usepackage[margin=1cm, a4paper]{geometry}
@@ -18,9 +12,9 @@
 \setlength{\rightcolwidth}{0.75\textwidth}
 
 %------------------------------------------------------------------
-\title{New Simple CV}
-\author{\LaTeX{} Ninja}
-\date{June 2019}
+\title{CV Jennifer}
+\author{\LaTeX{} Jennifer}
+\date{May 2023}
 \hypersetup{
   colorlinks=true,
   linkcolor=blue,
@@ -28,22 +22,15 @@
 }
 \pagestyle{empty}
 \begin{document}
-
-
-
-
 \thispagestyle{empty}
 %-------------------------------------------------------------
 
 \section*{Start}
 
-\simpleheader{headercolour}{Jennifer}{Bouquin}{Dévelopeuse Front-End}{white}
-
-
+\simpleheader{headercolour}{Jennifer}{Bouquin}{Développeuse Front-End}{white}
 
 %------------------------------------------------
 
-% this has to be here so the paracols starts..
 \subsection*{}
 \vspace{4em}
 
@@ -51,45 +38,50 @@
 \columnratio{0.23}[0.75]
 \begin{paracol}{2}
     \hbadness5000
-    %\backgroundcolor{c[1]}[rgb]{1,1,0.8} % cream yellow for column-1 %\backgroundcolor{g}[rgb]{0.8,1,1} % \backgroundcolor{l}[rgb]{0,0,0.7} % dark blue for left margin
     
     \paracolbackgroundoptions
-    
-    % 0.9,0.9,0.9 -- 0.8,0.8,0.8
-    
     
     \footnotesize
     {\setasidefontcolour
     \flushright
     \begin{center}
-        \roundpic{jennifer2.jpg}
+        \roundpic{images/jennifer2.jpg}
     \end{center}
     
     \bg{headercolour}{white}{A propos de moi}\\[0.5em]
     
-    {32 ans et toutes ses dents}
-    
+    {Après 3 ans dans la Gendarmerie, j'ai quitté cette grande famille pour faire de ma passion un métier : Le développement web. Forte d'une première expérience en startup, je recherche de nouveaux défis en ESN}
 
+    \vspace{1em}
+    
     \bigskip
     \bg{headercolour}{white}{Compétences}\\[0.5em]
-    % \includegraphics[height=10cm, width=10cm]{nuage-de-mots.png}
-    \begin{center}
-        \test{nuage-de-mots.png}
-    \end{center}
-    
+        \centerline{\includegraphics[height=3cm]{images/nuage-de-mots.png}}
     \bigskip
-    
 
+    \vspace{1em}
     
     \bg{headercolour}{white}{Loisirs}\\[0.5em]
     
     \texttt{Arts Martiaux} \\
+    \vspace{0.25em}
     \texttt{Informatique} \\
-    \texttt{Lecture}
+    \vspace{0.25em}
+    \texttt{Lecture} \\
+    \vspace{0.25em}
+    \texttt{Manga / Animes} \\
+    \vspace{0.25em}
+    \texttt{Jeux vidéo} \\
+    \vspace{0.25em}
+    \texttt{Voyage}
+    \bigskip
     
-    \vspace{4em}
+    \vspace{1em}
     
+    \bg{headercolour}{white}{Réseaux}\\[0.5em]
     \infobubble{\faGithub}{black}{white}{\href{https://github.com/Kinbou}{Kinbou}}
+    \vspace{1em}
+    \infobubble{\faLinkedin}{materialcyan}{white}{\href{https://www.linkedin.com/in/jennifer-bouquin/}{j.bouquin}}
     
     \phantom{turn the page}
     
@@ -99,43 +91,42 @@
     \switchcolumn
     \vspace{2em}
     \small
-    \section*{Expériences professionnelles}
+    \section*{Expériences professionnelless}
     
     \begin{tabular}{r| p{0.5\textwidth} c}
-        \cvevent{2021--auj.}{Altrnativ}{Front-End}{Sophia Antipolis \color{cvred}}{Développements en équipe agile des produits de cybersécurité de la société. 
+        \cvevent{2021--auj.}{Altrnativ}{Front-End}{Sophia Antipolis \color{cvred}}{Développements en équipe agile des produits de cybersécurité édités par la société. 
         \begin{itemize}[leftmargin=2em]
             \item Visualisation de données hétérogènes: cartographie, graphe, tableur.
             \item Interface d'administration de système ABAC.
             \item Actions d'ETL
         \end{itemize}
-        \textit{TypeScript, React, Redux, Electron, Sass, Material UI, webpack, git, YouTrack}}{altrnativ.png} \\
+        \textit{TypeScript, React, Redux, Electron, Sass, Material UI, webpack, git, YouTrack}}{images/altrnativ.png} \\
         \cvevent{2020--auj.}{Slipix}{Full-stack}{Freelance \color{cvred}}{Conception et développement du site d'un streamer League of Legends (guide pour progresser sur le jeu).\vspace{0.4em} \newline 
-        \textit{React 18, Redux, VueJs, TypeScript, UnoCSS, Node, Vite, MySQL, git}}{logoSlipix.png}
+        \textit{React, Redux, VueJs, TypeScript, UnoCSS, Node, Vite, MySQL, git}}{images/logoSlipix.png}
     \end{tabular}
     \vspace{2em}
     
     \section*{Autres Expériences professionnelles}
 
     \begin{tabular}{r| p{0.5\textwidth} c}
-        \cvevent{2017--2021}{Securitas}{Agent de sécurité}{Sophia Antipolis \color{cvred}}{Sécurité du site AMADEUS: ronde, gestion des badges, caméras et logiciels du site en rapport avec la sécurité}{securitas.png} \\
-        \cvevent{2011--2014}{Gendarmerie Nationale}{Gendarme adjointe volontaire}{La Farlède \color{cvred}}{Brigade territoriale: gestion des plaintes, enquête judiciaire, patrouille, police route, déferment prison, gestion des accidents, etc.}{gendarmerieLogo.jpeg}
+        \cvevent{2017--2021}{Securitas}{Agent de sécurité}{Sophia Antipolis \color{cvred}}{Sécurité du site AMADEUS: ronde, gestion des accès badges, surveillance caméras, logiciels de sécurité du site.}{images/securitas.png} \\
+        \cvevent{2011--2014}{Gendarmerie Nationale}{Gendarme adjointe volontaire}{La Farlède \color{cvred}}{Brigade territoriale: gestion des plaintes, enquête judiciaire, patrouille, police route, défèrement prison, interventions diverses.}{images/gendarmerieLogo.jpeg}
     \end{tabular}
     \vspace{2em}
 
     \section*{Formations}
 
     \begin{tabular}{r| p{0.5\textwidth} c}
-        \cvevent{2020}{O'clock}{Développeur web et web mobile}{Domicile \color{cvred}}{HTML, CSS, PHP (laravel), javascript, git (5 mois, bac+2)}{oclock.jpeg} \\
-        \cvevent{2017}{Algiz}{Agent de renseignement privé}{Monaco \color{cvred}}{Stage Initiation aux techniques opérationnelles de filature et de surveillance}{ALGIZ-Security_logo-black.jpg} \\
-        \cvevent{2011}{Gendarmerie Nationale}{Agent de police judiciaire adjointe}{Tulle \color{cvred}}{Concours / Examen et formation de l'école de Gendarmerie (3mois)}{gendarmerieLogo.jpeg}
+        \cvevent{2020}{O'clock}{Développeur web et web mobile}{Domicile \color{cvred}}{HTML, CSS, PHP (laravel), javascript, git (5 mois, bac+2)}{images/oclock.jpeg} \\
+        \cvevent{2017}{Algiz}{Agent de renseignement privé}{Monaco \color{cvred}}{Stage d'initiation aux techniques opérationnelles de filature et de surveillance}{images/ALGIZ-Security_logo-black.jpg} \\
+        \cvevent{2011}{Gendarmerie Nationale}{Agent de police judiciaire adjointe}{Tulle \color{cvred}}{Concours / Examen et formation de l'école de Gendarmerie (3mois)}{images/gendarmerieLogo.jpeg}
     \end{tabular}
-    \vspace{2.5em}
+    \vspace{2.8em}
 
     \begin{minipage}[t]{0.3\textwidth}
 
-        
     \end{minipage}
-    \vfill{} % Whitespace before final footer
+    \vfill{}
     
     %----------------------------------------------------------------------------------------
     %	FINAL FOOTER
@@ -143,7 +134,7 @@
     \setlength{\parindent}{0pt}
     \begin{minipage}[t]{\rightcolwidth}
         \begin{center}\fontfamily{\sfdefault}\selectfont \color{black!70}
-            {\small \icon{\faMapMarker}{cvgreen}{} Mougins \icon{\faPhone}{cvgreen}{} 06.82.46.48.47 \icon{\faAt}{cvgreen}{} \textit{jennifer.bouquin@gmail.com} \newline \newline  \textit{cv réalisé en} \raisebox{-.3\height}{\includegraphics[height=0.4cm]{latex.png}}
+            {\small \icon{\faMapMarker}{cvgreen}{} Mougins \icon{\faPhone}{cvgreen}{} 06.82.46.48.47 \icon{\faAt}{cvgreen}{} \textit{jennifer.bouquin@gmail.com} \newline \newline  \href{https://github.com/Kinbou/latexCV}{\textit{cv réalisé en} \raisebox{-.3\height}{\includegraphics[height=0.4cm]{images/latex.png}}}
             }
         \end{center}
     \end{minipage}

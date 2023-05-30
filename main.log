@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.5.27)  29 MAY 2023 15:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.5.27)  30 MAY 2023 11:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -6,8 +6,12 @@ entering extended mode
 **/home/jennifer/Projets/test/main.tex
 (/home/jennifer/Projets/test/main.tex
 LaTeX2e <2022-11-01> patch level 1
-L3 programming layer <2023-01-16> (./simplehipstercv.cls
-Document Class: simplehipstercv 2019/06/22 A New Simple CV Template
+L3 programming layer <2023-01-16> (./main-classes.cls
+
+LaTeX Warning: You have requested document class `main-classes',
+               but the document class provides `simplehipstercv'.
+
+Document Class: simplehipstercv 2023/05/29 Jennifer CV
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
@@ -42,7 +46,7 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
-)) (./simplehipstercv.sty (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+)) (./main-styles.sty (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 ) (/usr/share/texlive/texmf-dist/tex/latex/fontawesome/fontawesome.sty
 Package: fontawesome 2016/05/15 v4.6.3.1 font awesome icons
@@ -714,40 +718,40 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
 \rightcolwidth=\skip58
 \leftcolwidth=\skip59
-Package hyperref Info: Option `colorlinks' set `true' on input line 28.
-LaTeX Font Info:    Trying to load font information for T1+Raleway-TLF on input line 30.
+Package hyperref Info: Option `colorlinks' set `true' on input line 22.
+LaTeX Font Info:    Trying to load font information for T1+Raleway-TLF on input line 24.
  (/usr/share/texlive/texmf-dist/tex/latex/raleway/T1Raleway-TLF.fd
 File: T1Raleway-TLF.fd 2014/07/28 (autoinst) Font definitions for T1/Raleway-TLF.
 )
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 30.
+(Font)              scaled to size 10.0pt on input line 24.
  (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 30.
-LaTeX Font Info:    Trying to load font information for LY1+ptm on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 24.
+LaTeX Font Info:    Trying to load font information for LY1+ptm on input line 24.
  (/usr/share/texlive/texmf-dist/tex/latex/ly1/ly1ptm.fd
 File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
 )
-LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    ... okay on input line 24.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count324
@@ -767,7 +771,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring ON on input line 30.
+Package hyperref Info: Link coloring ON on input line 24.
  (./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
@@ -808,116 +812,116 @@ Package hyperref Info: Link coloring ON on input line 30.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/sc' will be
-(Font)              scaled to size 10.0pt on input line 38.
+(Font)              scaled to size 10.0pt on input line 28.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/sc' will be
-(Font)              scaled to size 14.4pt on input line 38.
+(Font)              scaled to size 14.4pt on input line 28.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 24.88pt on input line 40.
+(Font)              scaled to size 24.88pt on input line 30.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
-(Font)              scaled to size 24.88pt on input line 40.
+(Font)              scaled to size 24.88pt on input line 30.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 47.
+(Font)              scaled to size 12.0pt on input line 34.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 47.
+(Font)              scaled to size 12.0pt on input line 34.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 61.
-<jennifer2.jpg, id=34, 803.0pt x 812.03375pt>
-File: jennifer2.jpg Graphic file (type jpg)
-<use jennifer2.jpg>
-Package pdftex.def Info: jennifer2.jpg  used on input line 65.
+(Font)              scaled to size 8.0pt on input line 44.
+<images/jennifer2.jpg, id=34, 803.0pt x 812.03375pt>
+File: images/jennifer2.jpg Graphic file (type jpg)
+<use images/jennifer2.jpg>
+Package pdftex.def Info: images/jennifer2.jpg  used on input line 48.
 (pdftex.def)             Requested size: 98.47557pt x 99.58464pt.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
-(Font)              scaled to size 8.0pt on input line 68.
-<nuage-de-mots.png, id=35, 2095.83pt x 1047.915pt>
-File: nuage-de-mots.png Graphic file (type png)
-<use nuage-de-mots.png>
-Package pdftex.def Info: nuage-de-mots.png  used on input line 77.
-(pdftex.def)             Requested size: 483.69371pt x 241.84842pt.
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 86.
+(Font)              scaled to size 8.0pt on input line 51.
+<images/nuage-de-mots.png, id=35, 711.65875pt x 421.575pt>
+File: images/nuage-de-mots.png Graphic file (type png)
+<use images/nuage-de-mots.png>
+Package pdftex.def Info: images/nuage-de-mots.png  used on input line 59.
+(pdftex.def)             Requested size: 144.08838pt x 85.35826pt.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 66.
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
-LaTeX Font Info:    Trying to load font information for U+fontawesometwo on input line 92.
+LaTeX Font Info:    Trying to load font information for U+fontawesometwo on input line 82.
  (/usr/share/texlive/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
 )
 
 LaTeX Font Warning: Font shape `U/fontawesometwo/b/n' undefined
-(Font)              using `U/fontawesometwo/m/n' instead on input line 92.
+(Font)              using `U/fontawesometwo/m/n' instead on input line 82.
 
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 101.
+(Font)              scaled to size 9.0pt on input line 93.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/sc' will be
-(Font)              scaled to size 9.0pt on input line 102.
+(Font)              scaled to size 9.0pt on input line 94.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 104.
+(Font)              <9> on input line 96.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 104.
+(Font)              <6> on input line 96.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 104.
+(Font)              <5> on input line 96.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 111.
-LaTeX Font Info:    Trying to load font information for TS1+Raleway-TLF on input line 111.
+(Font)              scaled to size 9.0pt on input line 103.
+LaTeX Font Info:    Trying to load font information for TS1+Raleway-TLF on input line 103.
 (/usr/share/texlive/texmf-dist/tex/latex/raleway/TS1Raleway-TLF.fd
 File: TS1Raleway-TLF.fd 2014/07/28 (autoinst) Font definitions for TS1/Raleway-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 111.
+(Font)              scaled to size 8.0pt on input line 103.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/it' will be
-(Font)              scaled to size 8.0pt on input line 111.
-<altrnativ.png, id=38, 374.39874pt x 374.39874pt>
-File: altrnativ.png Graphic file (type png)
-<use altrnativ.png>
-Package pdftex.def Info: altrnativ.png  used on input line 111.
+(Font)              scaled to size 8.0pt on input line 103.
+<images/altrnativ.png, id=39, 374.39874pt x 374.39874pt>
+File: images/altrnativ.png Graphic file (type png)
+<use images/altrnativ.png>
+Package pdftex.def Info: images/altrnativ.png  used on input line 103.
 (pdftex.def)             Requested size: 28.45003pt x 28.45003pt.
-<logoSlipix.png, id=39, 48.18pt x 48.18pt>
-File: logoSlipix.png Graphic file (type png)
-<use logoSlipix.png>
-Package pdftex.def Info: logoSlipix.png  used on input line 113.
+<images/logoSlipix.png, id=40, 48.18pt x 48.18pt>
+File: images/logoSlipix.png Graphic file (type png)
+<use images/logoSlipix.png>
+Package pdftex.def Info: images/logoSlipix.png  used on input line 105.
 (pdftex.def)             Requested size: 28.4524pt x 28.4524pt.
-<securitas.png, id=40, 1027.84pt x 827.09pt>
-File: securitas.png Graphic file (type png)
-<use securitas.png>
-Package pdftex.def Info: securitas.png  used on input line 120.
+<images/securitas.png, id=41, 1027.84pt x 827.09pt>
+File: images/securitas.png Graphic file (type png)
+<use images/securitas.png>
+Package pdftex.def Info: images/securitas.png  used on input line 112.
 (pdftex.def)             Requested size: 28.44997pt x 28.44629pt.
-<gendarmerieLogo.jpeg, id=41, 803.0pt x 663.47874pt>
-File: gendarmerieLogo.jpeg Graphic file (type jpg)
-<use gendarmerieLogo.jpeg>
-Package pdftex.def Info: gendarmerieLogo.jpeg  used on input line 121.
+<images/gendarmerieLogo.jpeg, id=42, 803.0pt x 663.47874pt>
+File: images/gendarmerieLogo.jpeg Graphic file (type jpg)
+<use images/gendarmerieLogo.jpeg>
+Package pdftex.def Info: images/gendarmerieLogo.jpeg  used on input line 113.
 (pdftex.def)             Requested size: 28.45094pt x 28.44803pt.
-<oclock.jpeg, id=42, 225.84375pt x 225.84375pt>
-File: oclock.jpeg Graphic file (type jpg)
-<use oclock.jpeg>
-Package pdftex.def Info: oclock.jpeg  used on input line 128.
+<images/oclock.jpeg, id=43, 225.84375pt x 225.84375pt>
+File: images/oclock.jpeg Graphic file (type jpg)
+<use images/oclock.jpeg>
+Package pdftex.def Info: images/oclock.jpeg  used on input line 120.
 (pdftex.def)             Requested size: 28.45094pt x 28.45094pt.
-<ALGIZ-Security_logo-black.jpg, id=43, 337.7418pt x 337.7418pt>
-File: ALGIZ-Security_logo-black.jpg Graphic file (type jpg)
-<use ALGIZ-Security_logo-black.jpg>
-Package pdftex.def Info: ALGIZ-Security_logo-black.jpg  used on input line 129.
+<images/ALGIZ-Security_logo-black.jpg, id=44, 337.7418pt x 337.7418pt>
+File: images/ALGIZ-Security_logo-black.jpg Graphic file (type jpg)
+<use images/ALGIZ-Security_logo-black.jpg>
+Package pdftex.def Info: images/ALGIZ-Security_logo-black.jpg  used on input line 121.
 (pdftex.def)             Requested size: 28.45256pt x 28.45256pt.
-File: gendarmerieLogo.jpeg Graphic file (type jpg)
-<use gendarmerieLogo.jpeg>
-Package pdftex.def Info: gendarmerieLogo.jpeg  used on input line 130.
+File: images/gendarmerieLogo.jpeg Graphic file (type jpg)
+<use images/gendarmerieLogo.jpeg>
+Package pdftex.def Info: images/gendarmerieLogo.jpeg  used on input line 122.
 (pdftex.def)             Requested size: 28.45094pt x 28.44803pt.
-LaTeX Font Info:    Trying to load font information for U+fontawesomeone on input line 146.
+LaTeX Font Info:    Trying to load font information for U+fontawesomeone on input line 137.
  (/usr/share/texlive/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
 File: ufontawesomeone.fd 2016/05/22 Font definitions for U/fontawesomeone.
 )
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/it' will be
-(Font)              scaled to size 9.0pt on input line 146.
-<latex.png, id=44, 2569.6pt x 1071.00125pt>
-File: latex.png Graphic file (type png)
-<use latex.png>
-Package pdftex.def Info: latex.png  used on input line 146.
+(Font)              scaled to size 9.0pt on input line 137.
+<images/latex.png, id=46, 2569.6pt x 1071.00125pt>
+File: images/latex.png Graphic file (type png)
+<use images/latex.png>
+Package pdftex.def Info: images/latex.png  used on input line 137.
 (pdftex.def)             Requested size: 27.28938pt x 11.38092pt.
 
-Overfull \hbox (22.04874pt too wide) in paragraph at lines 144--150
+Overfull \hbox (22.04874pt too wide) in paragraph at lines 135--141
 [][] 
  []
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./jennifer2.jpg> <./nuage-de-mots.png> <./altrnativ.png> <./logoSlipix.png (PNG copy)> <./securitas.png> <./gendarmerieLogo.jpeg> <./oclock.jpeg> <./ALGIZ-Security_logo-black.jpg> <./latex.png>] (./main.aux)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/jennifer2.jpg> <./images/nuage-de-mots.png> <./images/altrnativ.png> <./images/logoSlipix.png (PNG copy)> <./images/securitas.png> <./images/gendarmerieLogo.jpeg> <./images/oclock.jpeg> <./images/ALGIZ-Security_logo-black.jpg> <./images/latex.png>] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -925,18 +929,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 28748 strings out of 476091
- 580893 string characters out of 5794081
- 1880330 words of memory out of 5000000
- 48582 multiletter control sequences out of 15000+600000
+ 28716 strings out of 476091
+ 580639 string characters out of 5794081
+ 1883330 words of memory out of 5000000
+ 48548 multiletter control sequences out of 15000+600000
  702136 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 131i,11n,132p,465b,1223s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 131i,11n,132p,466b,1214s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/raleway/a_bzmckq.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/raleway/a_2bcjq6.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/raleway/a_yqxcf3.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/share/texlive/texmf-dist/fonts/type1/impallari/raleway/Raleway-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/impallari/raleway/Raleway-Italic.pfb></usr/share/texlive/texmf-dist/fonts/type1/impallari/raleway/Raleway-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt0800.pfb>
-Output written on main.pdf (1 page, 2507638 bytes).
+Output written on main.pdf (1 page, 2493813 bytes).
 PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
- 53 compressed objects within 1 object stream
+ 105 PDF objects out of 1000 (max. 8388607)
+ 55 compressed objects within 1 object stream
  2 named destinations out of 1000 (max. 500000)
  166 words of extra memory for PDF output out of 10000 (max. 10000000)
 
